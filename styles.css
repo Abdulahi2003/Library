@@ -1,0 +1,135 @@
+body {
+    background-color: gold;
+}
+#new-book-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 15px;
+    background-color: black;
+    color: gold;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    transition: 0.3s;   
+    margin-bottom: 10px; 
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select {
+    border-color: gray;
+    box-shadow: 2px 2px 4px black;
+}
+
+label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: black;
+    color: gold;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: gray;
+}
+
+.book-card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.book-header{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.book-title{
+    margin: 0;
+    font-size: 22px;
+}
+
+.book-author{
+    margin: 5px 0 0 0;
+    font-size: 16px;
+}
+
+.book-body{
+    padding: 20px;
+    text-align: center;
+}
+
+.book-pages{
+    margin: 0;
+    font-size: 16px;
+}
+
+.book-status{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: gray;
+}
+
+button{
+    padding: 10px;
+    border: 2px solid gold;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: gold;
+    color: black;
+}
+
+.read-status {
+    background-color: black;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
